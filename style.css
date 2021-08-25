@@ -212,7 +212,10 @@ input{
 input[type=text]{
     width: 100%;
 }
-
+input[type=text]#subj{
+    width: 100%;
+    height: 200px;
+}
 input[type=submit]{
     width: 100%;
     height: 30px;
@@ -233,10 +236,12 @@ input[type=submit]:hover{
 
 
 footer{
+    background-color: #181818;
     padding: 0;
     text-align: center;
     text-transform:lowercase;
 }
+
 footer hr{
     padding: 0;
     margin: 0;
